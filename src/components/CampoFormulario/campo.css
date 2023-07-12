@@ -1,0 +1,11 @@
+
+.campo{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.campo input{
+    margin-bottom: 8px;
+    padding: 7px 5px;
+    width: 100%;
+} 

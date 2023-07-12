@@ -1,0 +1,113 @@
+
+
+.person form {
+  background: rgba(154, 217, 247, 0.479);
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.person button {
+  background: black;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background .5s;
+  border: none;
+}
+
+.person  button:hover {
+  background-color: rgb(240, 236, 17);
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.person form .p-campos{
+    display: grid;
+    grid-template-columns: 49% 50%;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.person form .p-campos input{
+ 
+  box-sizing: border-box;
+
+}
+
+.person form button {
+  background: black;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background .5s;
+  border: none;
+}
+
+.person form button:hover {
+  background-color: rgb(240, 236, 17);
+  color: black;
+  cursor: pointer;
+}
+
+.person table .acciones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.person table .btn-del button {
+  background: rgb(218, 7, 7);
+  padding: 7px;
+  box-sizing: border-box;
+ 
+}
+.person table .btn-edit button {
+  background: rgb(10, 175, 18);
+  padding: 7px;
+  box-sizing: border-box;
+}
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabla th,
+  .tabla td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .tabla th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .tabla tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabla tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+ 
+
+  
+  
+  
+  
